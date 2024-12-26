@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;}
+  
+  nav {
+    height: 90px;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 14);}
+  
+    nav a {
+        text-decoration: underline;
+        color: #bebebe;
+        padding: 0 1.1rem;}
+      
+      nav a:hover {
+        color: #ffffff;}
+        
+  .logo {
+    color: #cbcbcb;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 0rem;}
+
+    .hero {
+        background: #1e1e1e;}
+    
+    .bar-logo {
+            display: flex;
+            justify-content: flex-start;
+            }
+            
+    .nav-image {
+            width: 37.0rem;
+            height: 0.7rem;
+            border-radius: 5rem 5rem 100rem;
+            margin-top: -1.4rem;}
+      
+      .hero-container {
+        display:block;
+        grid-template-columns: 1fr 1fr;
+        height: 95vh;
+        padding: 2rem calc((100vw - 1300px) / 2);}
+
+        .centertext {
+            display:flex;
+            flex-direction: center;
+            justify-content: center;
+            align-items: flex-start;
+            color: #cbcbcb;
+            padding: 1rem 20rem;}
+        
+        .centertext titlu {
+            margin-bottom: -1.2rem;
+            font-size: 3rem;}
+
+            .centertext2 {
+                display: flex;
+                flex-direction: center;
+                justify-content: center;
+                align-items: flex-start;
+                color: #cbcbcb;
+                padding: 2rem 2rem;}
+            
+            .centertext2 titlu2 {
+                margin-bottom: 1rem;
+                font-size: 1.5rem;}
+
+                .pagend {
+                  background: #1e1e1e;}
+                
+                .end-logo {
+                display: flex;
+                justify-content: flex-start;}
+                
+                .end-bar-image {
+                width: 94.0rem;
+                height: 0.7rem;
+                border-radius: 5rem 5rem 100rem;
+                margin-top: -1.4rem;}
+                
+                .pagend-container {
+                  display: grid;
+                  grid-template-columns: 10fr 1fr;
+                  height: 11vh;
+                  padding: 0rem calc((100vw - 100px) / 2.1);}
+                
+                .end-items {
+                  height:70px;
+                  background: #1e1e1e;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;}
+                
+                .fb-end {
+                  width: 30px;
+                  height: 30px;
+                  cursor: pointer;
+                  border-radius: 1rem;}
+                
+                .fb-end:hover {
+                  box-shadow: 0 0 20px red;}
+                
+                  .in-end {
+                    width: 30px;
+                    height: 30px;
+                    cursor: pointer;
+                    border-radius: 1rem;}
+                
+                .in-end:hover {
+                  box-shadow: 0 0 20px red;}
+                
+                .wapp-end {
+                  width: 30px;
+                  height: 30px;
+                  cursor: pointer;
+                  border-radius: 1rem;}
+                
+                .wapp-end:hover {
+                  box-shadow: 0 0 20px red;}
+                
+                .infoe {
+                  background: #1e1e1e;}
+                
+                 .infe-container {
+                  display: grid;
+                  grid-template-columns: 10fr 1fr;
+                  height: 11vh;
+                  padding: 0rem calc((100vw - 100px) / 2.1);} 
+                
+                .infoe-items {
+                  height:32px;
+                  background: #1e1e1e;
+                  display: grid;
+                  justify-content: center;
+                  align-items: center;}
+                
+                .infoe-items txt {
+                padding: 0.1rem 0.4rem;
+                border-radius:0cm;
+                font-style:oblique;
+                font-size: 1.0rem;
+                text-decoration: none;
+                color: black;
+                border: none;
+                background: #c5c5c5;
+                cursor: pointer;}
+                
+                .infoe-items txt:hover {
+                  background: white;
+                box-shadow: 0 0 14px red;}
+                
+                
+                @media screen and (max-width: 768px) {
+                  .hero-container {
+                    grid-template-columns: 1fr;}}
