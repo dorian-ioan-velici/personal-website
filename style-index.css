@@ -31,6 +31,9 @@ nav {
   font-style: italic;
   padding: 0 0rem;}
 
+.hero {
+background: #1e1e1e;}
+
 button {
   text-decoration: none;
   color: #000;
@@ -155,11 +158,11 @@ margin-top: -1.4rem;}
 .infoe {
   background: #1e1e1e;}
 
- .infe-container {
+ .infoe-container {
   display: grid;
   grid-template-columns: 10fr 1fr;
   height: 11vh;
-  padding: 0rem calc((100vw - 100px) / 2.1);} 
+  padding: 0rem calc((100vw - 100px) / 2.5);} 
 
 .infoe-items {
   height:32px;
