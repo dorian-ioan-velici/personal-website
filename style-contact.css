@@ -214,25 +214,24 @@ border-radius: 2rem;}
       justify-content: center;
       align-items: center;}
     
-    .infoe-items txt {
-    padding: 0.1rem 0.4rem;
-    border-radius:0cm;
-    font-style:oblique;
-    font-size: 1.0rem;
-    text-decoration: none;
-    color: black;
-    border: none;
-    background: #c5c5c5;
-    cursor: pointer;}
-    
-    .infoe-items txt:hover {
-      background: white;
-    box-shadow: 0 0 14px red;}
+      .infoe-items txt {
+        padding: 0.1rem 0.4rem;
+        border-radius: 0.3rem;
+        font-style: oblique;
+        font-size: 1.0rem;
+        text-decoration: underline;
+        color: black;
+        border: none;
+        background: #c5c5c5;
+        cursor: pointer;}
+        
+        .infoe-items txt:hover {
+          background: white;
+        box-shadow: 0 0 14px red;}
 
 
 
 
     @media screen and (max-width: 768px) {
         .hero-container {
-          grid-template-columns: 1fr;}
-      }
+          grid-template-columns: 1fr;}}
