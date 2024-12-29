@@ -44,8 +44,8 @@ display: flex;
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
- height: 95vh;
-padding: 2rem calc((100vw - 1300px) / 2);}
+ height: 25vh;
+padding: 2rem calc((100vw - 1300px) / 3);}
 
 .centertext {
 display:flex;
@@ -57,20 +57,25 @@ color: #cbcbcb;
         
 .centertext titlu {
   margin-bottom: -1.2rem;
-  font-size: 3rem;}
+  font-size: 3rem;
+height: 10vh;}
 
-.centertext2 {
-display: flex;
-flex-direction: center;
-justify-content: center;
-align-items: flex-start;
-color: #cbcbcb;
- padding: 2rem 2rem;}
-            
-.centertext2 titlu2 {
- margin-bottom: 1rem;
-font-size: 3.0rem;
-color: red;}
+.middle-page {
+  background: #1e1e1e;}
+
+.middle-container {
+  display:block;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem calc((100vw - 1300px) / 2);
+height: 42vh;}
+  
+.middle-container a {
+font-size: 1.5rem;
+color: rgb(176, 175, 175);}
+
+.middle-container a:hover {
+color: white;
+}
 
 .pagend {
   background: #1e1e1e;}
