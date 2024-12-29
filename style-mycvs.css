@@ -103,32 +103,44 @@ margin-top: -1.4rem;}
   justify-content: space-between;
   align-items: center;}
 
-.fb-end {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  border-radius: 1rem;}
-
-.fb-end:hover {
-  box-shadow: 0 0 20px red;}
-
-  .in-end {
+  .fb-end {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    border-radius: 1rem;}
+    border-radius: 1rem;
+  transition: all 0.4s ease;}
+  
+.fb-end span {
+z-index:1;}
+
+.fb-end:hover {
+    box-shadow: 0 0 20px red;}
+  
+.in-end {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 1rem;
+    transition: all 0.4s ease;}
+  
+.in-end span {
+z-index: 1}
 
 .in-end:hover {
-  box-shadow: 0 0 20px red;}
-
+    box-shadow: 0 0 20px red;}
+  
 .wapp-end {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  border-radius: 1rem;}
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 1rem;
+  transition: all 0.4s ease;}
+  
+.wapp-end span {
+z-index: 1;}
 
 .wapp-end:hover {
-  box-shadow: 0 0 20px red;}
+    box-shadow: 0 0 20px red;}
 
 .infoe {
   background: #1e1e1e;}
@@ -139,25 +151,50 @@ margin-top: -1.4rem;}
     height: 11vh;
     padding: 0rem calc((100vw - 100px) / 2.5);} 
   
-.infoe-items {
+  .infoe-items {
     height:32px;
     background: #1e1e1e;
     display: grid;
     justify-content: center;
     align-items: center;}
   
-.infoe-items txt {
-      padding: 0.1rem 0.4rem;
+    .infoe-items txt {
+      display: flex;
+      padding: 0.3rem 0.4rem;
       border-radius: 0.3rem;
       font-style: oblique;
-      font-size: 1.0rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.2px;
+      height: 30px;
       text-decoration: underline;
       color: black;
       border: none;
       background: #c5c5c5;
-      cursor: pointer;}
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;}
+
+.infoe-items txt span {
+z-index: 1;}     
       
+.infoe-items txt::before {
+content: "";
+position: absolute;
+height: 100%;
+transition: all 0.2s ease;}
+
 .infoe-items txt:hover {
-        background: white;
-      box-shadow: 0 0 14px red;}
+  transition: all 0.2s ease;    
+  background: white;
+  box-shadow: 0 0 14px rgb(11, 157, 255);
+letter-spacing: 0.7px;}
+
+.infoe-items txt:hover::before {
+  width: 100%;}
+
+  
+  @media screen and (max-width: 768px) {
+    .hero-container {
+      grid-template-columns: 1fr;}
+  }
 
