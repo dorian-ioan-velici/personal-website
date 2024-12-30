@@ -110,17 +110,35 @@ border-radius: 2rem;}
     font-size: 1.2rem;}
 
  .facebook a {
-    padding: 0.3rem 0.7rem;
+  display: flex;  
+  padding: 0.3rem 0.7rem;
     border: none;
     color: #000;
     background: #a39d9d;
     cursor: pointer;
    border-radius: 1;
-   text-decoration: underline;}
+   text-decoration: underline;
+   letter-spacing: 0.1px;
+  transition: all 0.1s ease;
+  position: relative;}
+
+.facebook a span {
+  z-index: 1;}
+
+.facebook a::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  transition: all 0.1s ease;} 
 
 .facebook a:hover {
     background: #fff;
-    color: #000;}
+    color: #000;
+  transition: all 0.1s ease;
+letter-spacing: 0.8px;}
+
+.facebook a:hover::before {
+  width: 100%;}
 
 .linkedin {
     display:flex;
@@ -133,17 +151,35 @@ border-radius: 2rem;}
     font-size: 1.2rem;}
 
 .linkedin a {
-    padding: 0.3rem 0.7rem;
+  display: flex;  
+  padding: 0.3rem 0.7rem;
     border: none;
     color: #000;
     background: #a39d9d;
     cursor: pointer;
    border-radius: 1;
-   text-decoration: underline;}
+   text-decoration: underline;
+  letter-spacing: 0.1;
+  transition: all 0.1s ease;
+  position: relative;}
+
+.linkedin a span {
+  z-index: 1;}
+
+.linkedin a::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  transition: all 0.1s ease;}
 
 .linkedin a:hover {
     background: #fff;
-    color: #000;}
+    color: #000;
+  transition: all 0.1s ease;
+  letter-spacing: 0.8px;}
+
+.linkedin a:hover::before {
+  width: 100%;}
 
     .pagend {
       background: #1e1e1e;}
