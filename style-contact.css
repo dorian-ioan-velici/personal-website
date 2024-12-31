@@ -87,6 +87,12 @@ border-radius: 2rem;}
     margin-bottom: -2rem;
     font-size: 1.2rem}
 
+.phonenr a {
+  color: #cbcbcb;}
+  
+ .phonenr a:hover { 
+  color: rgb(123, 14, 14);}  
+
 .email {
     display:flex;
     flex-direction: column;
@@ -98,6 +104,12 @@ border-radius: 2rem;}
 .email mail {
     margin-bottom: 1rem 1rem;
     font-size: 1.2rem;}
+
+.email a {
+  color: #cbcbcb;}
+  
+.email a:hover {
+color: rgb(123, 14, 14);} 
 
 .facebook {
     display:flex;
