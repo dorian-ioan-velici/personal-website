@@ -193,7 +193,7 @@ z-index: 1;}
     display: grid;
     grid-template-columns: 10fr 1fr;
     height: 11vh;
-    padding: 0rem calc((100vw - 100px) / 2.5);} 
+    padding: 0rem calc((100vw - 100px) / 3);} 
   
   .infoe-items {
     height:32px;
