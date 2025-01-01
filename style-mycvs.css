@@ -91,7 +91,7 @@ border-radius: 5rem 5rem 100rem;
 margin-top: -1.4rem;}
 
 .pagend-container {
-  display: grid;
+  display: center;
   grid-template-columns: 10fr 1fr;
   height: 11vh;
   padding: 0rem calc((100vw - 100px) / 2.1);}
@@ -146,7 +146,7 @@ z-index: 1;}
   background: #1e1e1e;}
 
   .infoe-container {
-    display: grid;
+    display: center;
     grid-template-columns: 10fr 1fr;
     height: 11vh;
     padding: 0rem calc((100vw - 100px) / 3);} 
