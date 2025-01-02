@@ -7,7 +7,7 @@
 
 nav {
   height: 90px;
-  background: #1e1e1e;
+  background: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,6 +81,7 @@ margin-top: -1.4rem;}
 
 .button a {
   display: flex;
+  margin-bottom: 0.5rem;
   padding: 0.4rem 4rem;
   font-size: 1.2rem;
   border: none;
@@ -111,6 +112,39 @@ letter-spacing: 0.4px;}
 
 .button:hover::before {
   width: 100%;}
+
+.button2 a {
+    display: flex;
+    padding: 0.4rem 4rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #000;
+    background: #a39d9d;
+    cursor: pointer;
+   border-radius: 70rem;
+   text-decoration: none;
+   letter-spacing: 0.2px;
+   height: 35px;
+   transition: all 0.1s ease;
+   position: relative;}
+
+   .button2 a span {
+    z-index: 1;}
+  
+  .button2 a::before {
+  content: "";
+    position: absolute;
+    height: 100%;
+    transition: all 0.1s ease;}
+  
+  .button2 a:hover {
+    background: #fff;
+    color: #000;
+  transition: all 0.1s ease;
+  letter-spacing: 0.4px;}
+  
+  .button2:hover::before {
+    width: 100%;}
 
 .cpuimage {
   display:flex;
