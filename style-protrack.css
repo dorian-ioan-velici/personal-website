@@ -1,17 +1,17 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;}
 
 nav {
-  height: 90px;
-  background: #222222;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem calc((100vw - 1300px) / 14);}
+height: 90px;
+background: #222222;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0rem calc((100vw - 1300px) / 14);}
 
 nav a {
 text-decoration: underline;
@@ -25,72 +25,71 @@ color: #ffffff;
 border-radius: 2rem;}
 
 .navdesign {
-  display: flex;
-  justify-content: flex-start;}
+display: flex;
+justify-content: flex-start;}
   
 .nav-bar-img {
-  width: 94.0rem;
-  height: 0.15rem;
-  border-radius: 5rem 5rem 100rem;
-  opacity: 60%;}
+width: 94.0rem;
+height: 0.15rem;
+border-radius: 5rem 5rem 100rem;
+opacity: 60%;}
       
 .logo {
-  color: #cbcbcb;
-  font-size: 1.3rem;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0 0rem;}
+color: #cbcbcb;
+font-size: 1.3rem;
+font-weight: bold;
+font-style: italic;
+padding: 0 0rem;}
 
 .hero {
-  background: #1e1e1e;}
+background: #1e1e1e;}
 
 .bar-logo {
-      display: flex;
-      justify-content: flex-start;}
+display: flex;
+justify-content: flex-start;}
       
 .nav-image {
-      width: 37.0rem;
-      height: 0.7rem;
-      border-radius: 5rem 5rem 100rem;
-      margin-top: -1.4rem;}
+width: 37.0rem;
+height: 0.7rem;
+border-radius: 5rem 5rem 100rem;
+margin-top: -1.4rem;}
 
 .hero-container {
-  display:block;
-  grid-template-columns: 1fr 1fr;
-  height: 20vh;
-  padding: 2rem calc((100vw - 1300px) / 2);}
+display:block;
+grid-template-columns: 1fr 1fr;
+height: 20vh;
+padding: 2rem calc((100vw - 1300px) / 2);}
 
 .centertext {
-  display:flex;
-  flex-direction: center;
-  justify-content: center;
-  align-items: flex-start;
-  color: #cbcbcb;
-  padding: 1rem 20rem;}
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 1rem 20rem;}
 
 .centertext titlu {
-  margin-bottom: -1.2rem;
-  font-size: 3rem;}
-
+margin-bottom: -1.2rem;
+font-size: 3rem;}
 
 .middlepro1 {
 background: #1e1e1e;}
 
 .middlebar1 {
-  display: flex;
-  justify-content: flex-start;}
+display: flex;
+justify-content: flex-start;}
 
- .pro-bar1 {
-  width: 60.0rem;
-  height: 0.4rem;
-  border-radius: 5rem 5rem 100rem;
-  margin-bottom: -1.0rem;}
+.pro-bar1 {
+width: 60.0rem;
+height: 0.4rem;
+border-radius: 5rem 5rem 100rem;
+margin-bottom: -1.0rem;}
 
 .middlepro1-container {
-  display:block;
-  grid-template-columns: 1fr 1fr;
-  height: 65vh;
-  padding: 2rem calc((100vw - 1300px) / 2);}
+display:block;
+grid-template-columns: 1fr 1fr;
+height: 65vh;
+padding: 2rem calc((100vw - 1300px) / 2);}
 
 .middletext {
 display: flex;
@@ -105,7 +104,7 @@ font-size: 1.1rem;
 margin-bottom: 0.6rem;
 color: rgb(176, 175, 175);}
 
- .middletext2 {
+.middletext2 {
 font-size: 1.1rem;
 margin-bottom: 0.6rem;
 color: rgb(176, 175, 175);} 
@@ -129,7 +128,6 @@ width: 60.0rem;
 height: 0.4rem;
 border-radius: 5rem 5rem 100rem;
 margin-top: -16.5rem;}
-
 
 .pagend {
 background: #1e1e1e;}
@@ -158,14 +156,16 @@ justify-content: flex-start;}
 width: 9rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: 0.5rem;}    
+margin-top: 0.5rem;
+opacity: 60%;}    
 
 .end-items {
 height:70px;
 background: #1e1e1e;
 display: flex;
 justify-content: space-between;
-align-items: center;}
+align-items: center;
+margin-top: -0.5rem;}
 
 .fb-end {
 width: 30px;
@@ -214,7 +214,8 @@ justify-content: flex-start;}
 width: 9rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: -0.6rem;}    
+margin-top: -0.6rem;
+opacity: 60%;}
 
 .infoe {
 background: #1e1e1e;}
@@ -266,6 +267,7 @@ letter-spacing: 0.7px;}
 
 .infoe-items txt:hover::before {
 width: 100%;}
+
 
 @media screen and (max-width: 768px) {
 .hero-container {
