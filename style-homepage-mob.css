@@ -26,7 +26,7 @@ display: flex;
 justify-content: flex-start;}
     
 .nav-bar-img {
-width: 20.0rem;
+width: 25.0rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
 opacity: 60%;}
@@ -36,7 +36,7 @@ display: flex;
 justify-content: flex-start;}
 
 .nav-image {
-width: 20.0rem;
+width: 25.0rem;
 height: 0.5rem;
 border-radius: 5rem 5rem 100rem;
 margin-top: 3px;}
@@ -79,7 +79,7 @@ margin-bottom: -0.2rem;}
           
 .end-bar-image {
 background: #222222;
-width: 20.0rem; 
+width: 25.0rem; 
 height: 0.5rem;
 border-radius: 5rem 5rem 100rem;}
      
@@ -97,7 +97,7 @@ justify-content: flex-start;}
     
 .end-bar-image2 {
 background: #222222;
-width: 20.0rem; 
+width: 25.0rem; 
 height: 0.2rem;
 border-radius: 5rem 5rem 100rem;
 margin-bottom: 10px;
