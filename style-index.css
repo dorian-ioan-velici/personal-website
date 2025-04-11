@@ -306,7 +306,7 @@ background: #222222;}
 .essentials-container {
 display: flex;
 grid-template-columns: 11fr 1fr;
-height: 20px;} 
+height: 40px;} 
 
 .essentials-items {
 background: #222222;
