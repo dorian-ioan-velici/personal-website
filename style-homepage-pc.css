@@ -47,7 +47,7 @@ display: flex;
 justify-content: flex-start;}
     
 .nav-bar-img {
-width: 94.0rem;
+width: 120.0rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
 opacity: 60%;}
@@ -174,7 +174,7 @@ justify-content: flex-start;}
         
 .end-bar-image {
 background: #1e1e1e;
-width: 94.0rem; 
+width: 120.0rem; 
 height: 0.7rem;
 border-radius: 5rem 5rem 100rem;
 margin-top: -1.4rem;}
@@ -252,7 +252,7 @@ justify-content: flex-start;}
 width: 9rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: -0.6rem;
+margin-top: -0.7rem;
 opacity: 60%;}
         
 .infoe {
@@ -335,7 +335,19 @@ text-decoration-color: #1e1e1e;}
 .essentials ver {
 margin-top: 0.1px;
 display: flex;
-padding: 0.3rem 0.4rem;
+padding: 0.3rem 1rem;
+border-radius: 0.3rem;
+font-style: oblique;
+font-size: 0.8rem;
+letter-spacing: 0.5px;
+color: white;
+text-decoration: underline;
+text-decoration-color: #1e1e1e;}
+
+.essentials updated {
+margin-top: 0.1px;
+display: flex;
+padding: 0.3rem 1rem;
 border-radius: 0.3rem;
 font-style: oblique;
 font-size: 0.8rem;
