@@ -60,6 +60,53 @@
 </div>
 </section>
 
+
+<section class="msg-section">
+  <div class="msg-container">
+  <div class="msg-centertext">
+  <tmsg>You can also leave me a message:</tmsg>
+  </div>
+  
+  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+  <div class="row">
+  
+  <div class="msg-name">
+  <div class="form-group">
+  <input type="text" class="form-control" name="name" id="name" placeholder="Your name:">
+  </div>
+  </div>
+  
+  <div class="msg-email"> 
+  <div class="form-group">
+  <input type="email" class="form-control" name="email" id="email" placeholder="E-mail:">
+  </div>
+  </div>
+  
+  <div class="msg-subject">
+  <div class="form-group">
+  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject:">
+  </div>
+  </div>
+  
+  <div class="msg-msg">
+  <div class="form-group">
+  <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message:"></textarea>
+  </div>
+  </div>
+  
+  <div class="msg-button">
+  <div class="form-group">
+  <input type="submit" value="Send message" class="btn btn-primary">
+  <div class="submitting"></div>
+  </div>
+  </div>
+  
+  </div>
+  </form>
+  </div>
+  </section>
+
+
 <section class="pagend">
   <div class="end-logo">
   <img src="bar-end.png" alt="illustration" class="end-bar-image"/>
@@ -108,6 +155,7 @@
   </div>
   </section>
 
+
 <section class="essentials">
 <div class="essentials-container">
 <div class="essentials-items">
@@ -118,6 +166,13 @@
 </div>
 </section>
     
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/main.js"></script>
+
 
 </body>
 </html>

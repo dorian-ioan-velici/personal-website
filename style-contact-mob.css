@@ -56,7 +56,7 @@ margin-top: 65px;}
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 410px;
+height: 380px;
 padding: 1rem calc((100vw - 1300px) / 2);}
 
 .centertext {
@@ -240,6 +240,77 @@ letter-spacing: 0.8px;}
     
 .linkedin a:hover::before {
 width: 100%;}
+
+
+
+
+
+
+.msg-section {
+background: #1e1e1e;}
+
+.msg-container {
+display:block;
+grid-template-columns: 1fr 1fr;
+height: 340px;
+padding: 1rem calc((100vw - 1300px) / 2);}
+
+.msg-centertext {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 1rem 1rem;}
+
+.msg-name {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 0.2rem;}
+
+.msg-email {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 0.2rem;}
+
+.msg-subject {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 0.2rem;}
+
+.msg-msg {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 0.2rem;}
+
+.msg-button {
+display:flex;
+ flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 0.2rem;}
+
+
+
+
+
+
+
+
+
 
 .pagend {
 background: #222222;}
