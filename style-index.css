@@ -19,7 +19,7 @@ font-style: italic;
 padding: 25px 1rem;}
         
 .hero {
-background: #1e1e1e;}
+background-image: url("tech.gif");}
 
 .navdesign {
 display: flex;
@@ -46,7 +46,7 @@ margin-top: 3px;}
 display:block;
 grid-template-columns: 1fr 1fr;
 height: 370px;
-padding: 2rem calc((100vw - 1300px) / 2);}
+padding: 4.5rem calc((100vw - 1300px) / 2);}
                   
 .titlu {
 display:flex;
@@ -54,11 +54,13 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #cbcbcb;
-padding:1rem 1rem 2rem;}
+padding:1rem 1.55rem 2rem;}
                     
 .titlu t1 {
-font-size: 2.0rem;
-color: white;}    
+font-size: 26px;
+color: rgb(255, 255, 255);
+border: none;
+text-shadow: 2px 2px 15px rgb(255, 255, 255);}
 
 .desktop-ver {
 display:flex;
