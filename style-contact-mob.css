@@ -261,7 +261,8 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #cbcbcb;
-padding: 1rem 1rem;}
+padding: 1rem 1rem;
+font-size: 17.5px;}
 
 .msg-name {
 display:flex;

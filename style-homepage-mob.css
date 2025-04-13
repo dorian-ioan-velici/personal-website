@@ -92,7 +92,8 @@ text-decoration: none;
 letter-spacing: 0.2px;
 height: 30px;
 transition: all 0.1s ease;
-position: relative;}
+position: relative;
+text-shadow: 0px 0px 0px #000000;}
     
 .button a span {
 z-index: 1;}
@@ -126,7 +127,8 @@ text-decoration: none;
 letter-spacing: 0.2px;
 height: 30px;
 transition: all 0.1s ease;
-position: relative;}
+position: relative;
+text-shadow: 0px 0px 0px #000000;}
     
 .button2 a span {
 z-index: 1;}
