@@ -79,7 +79,7 @@ display: flex;
 justify-content: flex-start;}
         
 .pro-bar1 {
-width: 320px;
+width: 340px;
 height: 0.4rem;
 border-radius: 5rem 5rem 100rem;
 margin-bottom: -1.5rem;
@@ -124,10 +124,10 @@ display: flex;
 justify-content: flex-start;}
         
 .pro-bar2 {
-width: 320px;
+width: 340px;
 height: 0.4rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: -4.3rem;
+margin-top: -4.1rem;
 opacity: 50%;}
 
 .pagend {
