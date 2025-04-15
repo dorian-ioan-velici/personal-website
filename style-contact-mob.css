@@ -7,7 +7,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     
 nav {
 height: 50px;
-background-image: url("bar2.jpg");
+background: #222222;
 display: center;
 align-items: center;}
     
@@ -44,7 +44,7 @@ border-radius: 5rem 5rem 100rem;
 opacity: 60%;}
     
 .bar-logo {
-background-image: url("bar2.jpg");
+background: #222222;
 display: flex;
 justify-content: flex-start;}
     
