@@ -57,7 +57,7 @@ margin-top: 65px;}
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 115px;
+height: 130px;
 padding: 1rem calc((100vw - 1300px) / 2);}
 
 .centertext {
