@@ -7,7 +7,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     
 nav {
 height: 50px;
-background: #222222;
+background:#222222;
 display: center;
 align-items: center;}
     
@@ -44,7 +44,7 @@ border-radius: 5rem 5rem 100rem;
 opacity: 60%;}
     
 .bar-logo {
-background: #222222;
+background:#222222;
 display: flex;
 justify-content: flex-start;}
     
@@ -303,8 +303,19 @@ background-size: 500px}
 .msg-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 340px;
+height: 400px;
 padding: 1rem calc((100vw - 1300px) / 2);}
+
+.msg-upper-bar {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+margin-top: 40px;}
+
+.bar-msg {
+height: 3px;
+width: 270px;}
 
 .msg-centertext {
 display:flex;
@@ -550,16 +561,16 @@ text-decoration-color: #222222;
 color: white;}
 
 .essentials updated {
-    margin-top: 0px;
-    display: flex;
-    padding: 0.3rem 0.4rem;
-    border-radius: 0.3rem;
-    font-style: oblique;
-    font-size: 0.6rem;
-    letter-spacing: 0.5px;
-    text-decoration: underline;
-    text-decoration-color: #222222;
-    color: white;}
+margin-top: 0px;
+display: flex;
+padding: 0.3rem 0.4rem;
+border-radius: 0.3rem;
+font-style: oblique;
+font-size: 0.6rem;
+letter-spacing: 0.5px;
+text-decoration: underline;
+text-decoration-color: #222222;
+color: white;}
             
                 
 @media screen and (max-width: 768px) {
