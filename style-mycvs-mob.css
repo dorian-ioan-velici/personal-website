@@ -127,7 +127,8 @@ display: block;}
 background-color: #ddd;}
   
 .show {
-display:block;}
+display:block;
+margin-left: 5px}
 
 .pagend {
 background: #222222;}
