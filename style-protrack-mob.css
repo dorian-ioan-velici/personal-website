@@ -112,7 +112,7 @@ opacity: 50%;}
 .middlepro1-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 50vh;
+height: 55vh;
 padding: 2rem calc((100vw - 1300px) / 2);}
         
 .middletext {
