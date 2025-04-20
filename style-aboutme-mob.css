@@ -67,7 +67,7 @@ align-items: flex-start;
 color: #cbcbcb;
 padding: 1rem 1rem;
 margin-top: -10px;
-margin-left: 30px;}
+margin-left: 15px;}
 
 .start-logo2 {
 display: flex; 
@@ -102,7 +102,7 @@ background-size: 1000px;}
 .middlepro1-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 75vh;
+height: 850px;
 padding: 2rem calc((100vw - 1300px) / 2);}
         
 .middletext {
