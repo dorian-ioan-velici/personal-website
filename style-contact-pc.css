@@ -42,7 +42,7 @@ font-style: italic;
 padding: 0 0rem;}
   
 .hero {
-background: #1e1e1e;}
+background:#1e1e1e;}
 
 .bar-logo {
 display: flex;
@@ -297,7 +297,7 @@ letter-spacing: 0.8px;}
 width: 100%;}
 
 .msg-section {
-background: #1e1e1e;}
+background:#1e1e1e;}
       
 .msg-container {
 display:block;
