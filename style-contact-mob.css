@@ -304,7 +304,7 @@ background-size: 500px}
 .msg-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 420px;
+height: 440px;
 padding: 1rem calc((100vw - 1300px) / 2);}
 
 .msg-upper-bar {
