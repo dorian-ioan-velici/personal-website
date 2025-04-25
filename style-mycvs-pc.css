@@ -39,7 +39,7 @@ font-style: italic;
 padding: 0 0rem;}
 
 .hero {
-background: #1e1e1e;
+background:#393939;;
 background-repeat: no-repeat;
 background-size:auto;
 background-position: 1px;}
@@ -75,7 +75,7 @@ text-decoration: underline 2px;
 height: 10vh;}
 
 .middle-page {
-background: #1e1e1e;}
+background:#393939;}
 
 .middle-container {
 display:block;
@@ -135,6 +135,7 @@ justify-content: flex-start;
 margin-top: -15px;}
               
 .nav-bar-img2 {
+margin-top: 11px;
 width: 120.0rem;
 height: 0.16rem;
 border-radius: 5rem 5rem 100rem;
@@ -148,7 +149,7 @@ justify-content: flex-start;}
 width: 120.0rem;
 height: 0.7rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: -1.4rem;}
+margin-top: -0.25rem;}
 
 .pagend-container {
 display: center;
@@ -164,7 +165,7 @@ justify-content: flex-start;}
 width: 9rem;
 height: 0.15rem;
 border-radius: 5rem 5rem 100rem;
-margin-top: 0.5rem;
+margin-top: 0.7rem;
 opacity: 60%;}   
 
 .end-items {
