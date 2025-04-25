@@ -20,10 +20,10 @@
 					}
 				},
 				messages: {
-					name: "Please enter your name!",
-					subject: "Please enter your subject!",
-					email: "Please enter a valid email address!",
-					message: "Please enter a message!"
+					name: "Please enter your name.",
+					subject: "Please enter a subject.",
+					email: "Please enter a valid email address.",
+					message: "Please enter a message."
 				},
 				/* submit via ajax */
 				
