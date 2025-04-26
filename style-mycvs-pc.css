@@ -77,6 +77,17 @@ height: 10vh;}
 .middle-page {
 background:#393939;}
 
+.cv-lastup {
+display: inline-block;
+flex-direction:center;
+justify-content:flex-start;}
+
+.cv-lastup date {
+margin-left: 20px;
+font-size: 14.5px;
+color: #9f9f9f;
+font-style: oblique;}
+
 .middle-container {
 display:block;
 grid-template-columns: 1fr 1fr;
