@@ -78,7 +78,18 @@ text-shadow: 0px 0px 6px rgba(255, 249, 252, 1),
 .middle-page {
 background-image: url("tech3.gif");
 background-size: 200px;}
+
+.cv-lastup {
+display: inline-block;
+flex-direction:center;
+justify-content:flex-start;}
     
+.cv-lastup date {
+margin-left: 6px;
+font-size: 14.5px;
+color: #9f9f9f;
+font-style: oblique;}
+
 .middle-container {
 display:block;
 grid-template-columns: 1fr 1fr;
