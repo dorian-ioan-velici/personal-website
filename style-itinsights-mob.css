@@ -56,7 +56,7 @@ margin-top: 65px;}
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 400px;
+height: 430px;
 padding: 1rem calc((100vw - 1300px) / 2);}
 
 .centertext1 titlu1 {
@@ -139,7 +139,7 @@ background-size: 1000px;}
 .middlepro1-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 2000px;
+height: 2390px;
 padding: 2rem calc((100vw - 1300px) / 2);}
         
 .txt1 {
