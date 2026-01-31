@@ -151,8 +151,8 @@ display: flex;
 justify-content: flex-start;}
 
 .bar-social1 {
-width: 9rem;
-height: 0.15rem;
+width: 10rem;
+height: 0.16rem;
 border-radius: 5rem 5rem 100rem;
 margin-top: 0.6rem;
 opacity: 60%;} 
@@ -209,8 +209,8 @@ display: flex;
 justify-content: flex-start;}
 
 .bar-social2 {
-width: 9rem;
-height: 0.15rem;
+width: 10rem;
+height: 0.16rem;
 border-radius: 5rem 5rem 100rem;
 margin-top: -0.75rem;
 opacity: 60%;}

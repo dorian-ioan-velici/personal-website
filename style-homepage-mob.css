@@ -30,7 +30,8 @@ color:#ffffff;
 border-radius: 2rem;}
     
 .hero {
-background-image: url("tech2.gif");}
+background-image: url("tech2.gif");
+background-repeat: no-repeat;}
 
 .navdesign {
 display: flex;
@@ -56,7 +57,7 @@ margin-top: 65px;}
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 330px;
+height: 410px;
 padding: 1rem calc((100vw - 1300px) / 2);}
               
 .column-left {
@@ -182,6 +183,76 @@ transition: all 0.1s ease;
 letter-spacing: 0.4px;}
           
 .button3:hover::before {
+width: 100%;}
+
+.button4 a {
+display: flex;
+margin-bottom: 0.6rem;
+padding: 0.4rem 1rem;
+font-size: 0.90rem;
+border: none;
+color: #000;
+background: #a39d9d;
+cursor: pointer;
+border-radius: 70rem;
+text-decoration: none;
+letter-spacing: 0.2px;
+height: 50px;
+transition: all 0.1s ease;
+position: relative;
+text-shadow: 0px 0px 0px #000000;}
+    
+.button4 a span {
+z-index: 1;}
+    
+.button4 a::before {
+content: "";
+position: absolute;
+height: 100%;
+transition: all 0.1s ease;}
+    
+.button4 a:hover {
+background: #fff;
+color: #000;
+transition: all 0.1s ease;
+letter-spacing: 0.4px;}
+    
+.button4 a:hover::before {
+width: 100%;}
+
+.button5 a {
+display: flex;
+margin-bottom: 0.6rem;
+padding: 0.4rem 1rem;
+font-size: 0.90rem;
+border: none;
+color: #000;
+background: #a39d9d;
+cursor: pointer;
+border-radius: 70rem;
+text-decoration: none;
+letter-spacing: 0.2px;
+height: 50px;
+transition: all 0.1s ease;
+position: relative;
+text-shadow: 0px 0px 0px #000000;}
+        
+.button5 a span {
+z-index: 1;}
+          
+.button5 a::before {
+content: "";
+position: absolute;
+height: 100%;
+transition: all 0.1s ease;}
+          
+.button5 a:hover {
+background: #fff;
+color: #000;
+transition: all 0.1s ease;
+letter-spacing: 0.4px;}
+          
+.button5:hover::before {
 width: 100%;}
 
 .pagend {
