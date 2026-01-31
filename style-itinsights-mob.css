@@ -56,7 +56,7 @@ margin-top: 65px;}
 .hero-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 420px;
+height: 440px;
 padding: 1rem calc((100vw - 1300px) / 2);}
 
 .centertext {
@@ -65,7 +65,6 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #cbcbcb;
-padding: 1rem 2rem;
 margin-top: -10px;}
 
 .subtext1 {
@@ -131,7 +130,7 @@ background-size: 1000px;}
 .middlepro1-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 2380px;
+height: 1500px;
 padding: 2rem calc((100vw - 1300px) / 2);}
         
 .txt1 {

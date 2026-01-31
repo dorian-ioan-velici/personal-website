@@ -30,8 +30,7 @@ color:#ffffff;
 border-radius: 2rem;}
     
 .hero {
-background-image: url("tech2.gif");
-background-repeat: no-repeat;}
+background-image: url("tech2.gif");}
 
 .navdesign {
 display: flex;
