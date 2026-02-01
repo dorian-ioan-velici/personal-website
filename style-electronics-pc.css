@@ -59,8 +59,32 @@ display:block;
 grid-template-columns: 1fr 1fr;
 height: 95vh;
 padding: 2rem calc((100vw - 1300px) / 2);}
-      
+
+.centertext1 {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 1rem 20rem;}
+
+.centertext1 titlu1 {
+margin-bottom: -1.2rem;
+font-size: 3rem;}
+
 .centertext2 {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #cbcbcb;
+padding: 1rem 20rem;}
+
+.centertext2 titlu2 {
+margin-bottom: -1.2rem;
+font-size: 3rem;}
+
+.centertext3 {
 display: flex;
 flex-direction: center;
 justify-content: center;
@@ -68,7 +92,7 @@ align-items: flex-start;
 color: #cbcbcb;
 padding: 2rem 2rem;}
     
-.centertext2 titlu2 {
+.centertext3 titlu3 {
 margin-bottom: 1rem;
 font-size: 3.5rem;
 color: red;}

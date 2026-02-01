@@ -59,16 +59,27 @@
     height: 380px;
     padding: 1rem calc((100vw - 1300px) / 2);}
     
-.centertext {
+.centertext1 {
+display:flex;
+flex-direction: center;
+justify-content: center;
+align-items: flex-start;
+color: #bebebe;
+padding: 1rem 4rem;}
+        
+.centertext1 titlu1 {
+font-size:1.3rem;}
+
+.centertext2 {
 display:flex;
 flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: red;
-padding: 1rem 4rem;}
+font-size: 1.6rem;}
         
-.centertext titlu {
-font-size:1.5rem;}
+.centertext2 titlu2 {
+font-size:1.6rem;}
 
 .under {
 display:flex;

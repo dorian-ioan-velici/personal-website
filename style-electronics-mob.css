@@ -65,20 +65,22 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #bebebe;
-padding: 0.2rem 4rem;}
+padding: 0.2rem 4rem;
+font-size: 1.3rem;}
         
 .centertext titlu1 {
-font-size:1.5rem;} 
+font-size:1.3rem;} 
 
 .centertext2 {
 display:flex;
 flex-direction: center;
 justify-content: center;
 align-items: flex-start;
-color: #bebebe;}
+color: #bebebe;
+font-size: 1.3rem;}
         
 .centertext titlu2 {
-font-size: 1.5rem;}
+font-size: 1.3rem;}
     
 .centertext3 {
 display:flex;
@@ -86,10 +88,11 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: red;
-padding: 1rem 4rem;}
+padding: 1rem 4rem;
+font-size: 1.6rem;}
         
 .centertext titlu3 {
-font-size:1.5rem;}
+font-size:1.6rem;}
 
 .under {
 display:flex;
