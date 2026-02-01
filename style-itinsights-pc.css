@@ -109,25 +109,26 @@ display: flex;
 justify-content: flex-start;}
 
 .it-bar1 {
-width: 114.0rem;
+width: 89.0rem;
 height: 0.4rem;
 border-radius: 5rem 5rem 100rem;
-margin-bottom: -1.0rem;}
+margin-bottom: 1.5rem;}
 
 .itinsights {
 background:#393939;}
 
 .itinsights-container {
-display:block;
+display: block;
 grid-template-columns: 1r 1fr;
-height: 910px;
+height: 1200px;
 padding: 2rem 2rem calc((100vw - 1300px) / 2);}
 
 .itinsights-text {
-display: flex;
-flex-direction: column;
-justify-content: column;
-align-items: flex-start;}
+display: block;
+flex-direction: flex-start;
+justify-content:flex-start;
+align-items:flex-start;
+padding: 20px 10px;}
 
 .txt1 {
  margin-bottom: 15px;}
@@ -455,10 +456,10 @@ display: flex;
 justify-content: flex-start;}
 
 .it-bar2 {
-width: 114.0rem;
+width: 89.0rem;
 height: 0.4rem;
 border-radius: 5rem 5rem 100rem;
-margin-bottom: 5rem;}
+margin-top: 1.5rem;}
 
 .pagend {
 background: #1e1e1e;}

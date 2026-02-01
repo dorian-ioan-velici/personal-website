@@ -73,11 +73,22 @@ text-decoration: underline 2px;
 margin-bottom: -1.2rem;
 font-size: 3rem;}
      
+.middlebar1 {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;}
+
+.about-bar1 {
+width: 81.0rem;
+height: 0.4rem;
+border-radius: 5rem 5rem 100rem;
+margin-bottom: 1.2rem;}
+
 .aboutme {
 background:#393939;}
 
 .aboutme-container {
-display:block;
+display: block;
 grid-template-columns: 1fr 1fr;
 height: 550px;
 padding: 2rem calc((100vw - 1300px) / 2);}
@@ -115,6 +126,17 @@ font-size: 1.4rem;
 color: rgb(196, 196, 196);
 text-shadow: 0px 2.2px 2px rgb(0, 0, 0);
 box-shadow: 0px 0.5px 3px black;}
+
+.middle-bar2 {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;}
+
+.about-bar2 {
+width: 81.0rem;
+height: 0.4rem;
+border-radius: 5rem 5rem 100rem;
+margin-top: 1rem;}
 
 .pagend {
 background: #1e1e1e;}
