@@ -90,7 +90,7 @@ background:#393939;}
 .privacy-container {
 display: block;
 grid-template-columns: 1fr 1fr;
-height: 1140px;
+height: 1540px;
 padding: 2rem calc((100vw - 1300px) / 2);}
 
 .privacy-text {
@@ -185,6 +185,25 @@ text-shadow: 0px 2.2px 2px rgb(0, 0, 0);
 box-shadow: 0px 0.5px 3px black;}
 
 .txt14 {
+margin-bottom: 16px;
+font-size: 1.4rem;
+color: rgb(196, 196, 196);
+text-shadow: 0px 2.2px 2px rgb(0, 0, 0);}
+
+.txt15 {
+margin-bottom: 16px;
+font-size: 1.4rem;
+color: rgb(196, 196, 196);
+text-shadow: 0px 2.2px 2px rgb(0, 0, 0);}
+
+.txt16 {
+margin-bottom: 16px;
+font-size: 1.4rem;
+color: rgb(196, 196, 196);
+text-shadow: 0px 2.2px 2px rgb(0, 0, 0);
+box-shadow: 0px 0.5px 3px black;}
+
+.txt17 {
 margin-bottom: 16px;
 font-size: 1.4rem;
 color: rgb(196, 196, 196);
