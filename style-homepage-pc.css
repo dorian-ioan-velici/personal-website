@@ -263,6 +263,40 @@ letter-spacing: 0.4px;}
 .button5:hover::before {
 width: 100%;}
 
+.button6 a {
+margin-bottom: 0.6rem;    
+display: flex;
+padding: 0.4rem 1rem;
+font-size: 1.2rem;
+border: none;
+color: #000;
+background: #a39d9d;
+cursor: pointer;
+border-radius: 70rem;
+text-decoration: none;
+letter-spacing: 0.2px;
+height: 35px;
+transition: all 0.1s ease;
+position: relative;}
+
+.button6 a span {
+z-index: 1;}
+  
+.button6 a::before {
+content: "";
+position: absolute;
+height: 100%;
+transition: all 0.1s ease;}
+  
+.button6 a:hover {
+background: #fff;
+color: #000;
+transition: all 0.1s ease;
+letter-spacing: 0.4px;}
+  
+.button6:hover::before {
+width: 100%;}
+
 .hero-image {
 width: 85%;
 height:80%;}
