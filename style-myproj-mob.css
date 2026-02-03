@@ -68,7 +68,8 @@ color: #bebebe;
 padding: 1rem 4rem;}
         
 .centertext1 titlu1 {
-font-size:1.3rem;}
+font-size: 2rem;
+text-decoration: underline;}
 
 .centertext2 {
 display:flex;

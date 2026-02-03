@@ -56,7 +56,7 @@ font-weight: bold;
     .hero-container {
     display:block;
     grid-template-columns: 1fr 1fr;
-    height: 380px;
+    height: 400px;
     padding: 1rem calc((100vw - 1300px) / 2);}
 
 .centertext1 {
@@ -66,10 +66,12 @@ justify-content: center;
 align-items: flex-start;
 color: #bebebe;
 padding: 0.2rem 4rem;
-font-size: 1.3rem;}
+font-size: 2rem;
+text-decoration: underline;}
         
 .centertext titlu1 {
-font-size:1.3rem;} 
+font-size: 2rem;
+text-decoration: underline;} 
 
 .centertext2 {
 display:flex;
@@ -77,10 +79,11 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #bebebe;
-font-size: 1.3rem;}
+font-size: 2rem;
+text-decoration: underline;}
         
-.centertext titlu2 {
-font-size: 1.3rem;}
+.centertext2 titlu2 {
+font-size: 2rem;}
     
 .centertext3 {
 display:flex;
