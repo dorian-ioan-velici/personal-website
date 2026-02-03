@@ -141,7 +141,7 @@ background-size: 1000px;}
 .middlepro1-container {
 display:block;
 grid-template-columns: 1fr 1fr;
-height: 2390px;
+height: 2000px;
 padding: 2rem calc((100vw - 1300px) / 2);}
         
 .txt1 {

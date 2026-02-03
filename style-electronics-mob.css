@@ -66,7 +66,7 @@ justify-content: center;
 align-items: flex-start;
 color: #bebebe;
 padding: 0.2rem 4rem;
-font-size: 2rem;
+font-size: 1.35rem;
 text-decoration: underline;}
         
 .centertext titlu1 {
@@ -79,11 +79,11 @@ flex-direction: center;
 justify-content: center;
 align-items: flex-start;
 color: #bebebe;
-font-size: 2rem;
+font-size: 1.35rem;
 text-decoration: underline;}
         
 .centertext2 titlu2 {
-font-size: 2rem;}
+font-size: 1.35rem;}
     
 .centertext3 {
 display:flex;
